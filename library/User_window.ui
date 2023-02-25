@@ -1,0 +1,193 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>user_window</class>
+ <widget class="QMainWindow" name="user_window">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>1170</width>
+    <height>804</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>MainWindow</string>
+  </property>
+  <widget class="QWidget" name="centralwidget">
+   <layout class="QGridLayout" name="gridLayout">
+    <item row="0" column="0">
+     <widget class="QLabel" name="lbluser">
+      <property name="text">
+       <string>User Name</string>
+      </property>
+     </widget>
+    </item>
+    <item row="1" column="0">
+     <widget class="QTabWidget" name="tabWidget">
+      <property name="currentIndex">
+       <number>2</number>
+      </property>
+      <widget class="QWidget" name="tab">
+       <attribute name="title">
+        <string>Books On Me</string>
+       </attribute>
+       <widget class="QTableWidget" name="tblbom">
+        <property name="geometry">
+         <rect>
+          <x>0</x>
+          <y>0</y>
+          <width>1141</width>
+          <height>711</height>
+         </rect>
+        </property>
+        <column>
+         <property name="text">
+          <string>Book ID</string>
+         </property>
+        </column>
+        <column>
+         <property name="text">
+          <string>Book Name</string>
+         </property>
+        </column>
+        <column>
+         <property name="text">
+          <string>Category</string>
+         </property>
+        </column>
+        <column>
+         <property name="text">
+          <string>Author</string>
+         </property>
+        </column>
+        <column>
+         <property name="text">
+          <string>Publisher</string>
+         </property>
+        </column>
+        <column>
+         <property name="text">
+          <string>Book Price</string>
+         </property>
+        </column>
+        <column>
+         <property name="text">
+          <string>About</string>
+         </property>
+        </column>
+        <column>
+         <property name="text">
+          <string>Day</string>
+         </property>
+        </column>
+       </widget>
+      </widget>
+      <widget class="QWidget" name="tab_3">
+       <attribute name="title">
+        <string>Books I Am Read</string>
+       </attribute>
+       <widget class="QTableWidget" name="tblbiar">
+        <property name="geometry">
+         <rect>
+          <x>0</x>
+          <y>0</y>
+          <width>1141</width>
+          <height>711</height>
+         </rect>
+        </property>
+        <column>
+         <property name="text">
+          <string>Book ID</string>
+         </property>
+        </column>
+        <column>
+         <property name="text">
+          <string>Book Name</string>
+         </property>
+        </column>
+        <column>
+         <property name="text">
+          <string>Category</string>
+         </property>
+        </column>
+        <column>
+         <property name="text">
+          <string>Author</string>
+         </property>
+        </column>
+        <column>
+         <property name="text">
+          <string>Publisher</string>
+         </property>
+        </column>
+        <column>
+         <property name="text">
+          <string>Book Price</string>
+         </property>
+        </column>
+        <column>
+         <property name="text">
+          <string>About</string>
+         </property>
+        </column>
+        <column>
+         <property name="text">
+          <string>Retrieve Date</string>
+         </property>
+        </column>
+       </widget>
+      </widget>
+      <widget class="QWidget" name="tab_2">
+       <attribute name="title">
+        <string>Punishment</string>
+       </attribute>
+       <widget class="QTableWidget" name="tblp">
+        <property name="geometry">
+         <rect>
+          <x>0</x>
+          <y>0</y>
+          <width>1151</width>
+          <height>711</height>
+         </rect>
+        </property>
+        <column>
+         <property name="text">
+          <string>Book ID</string>
+         </property>
+        </column>
+        <column>
+         <property name="text">
+          <string>Book Name</string>
+         </property>
+        </column>
+        <column>
+         <property name="text">
+          <string>Punishment</string>
+         </property>
+        </column>
+        <column>
+         <property name="text">
+          <string>Day</string>
+         </property>
+        </column>
+       </widget>
+      </widget>
+     </widget>
+    </item>
+   </layout>
+  </widget>
+  <widget class="QMenuBar" name="menubar">
+   <property name="geometry">
+    <rect>
+     <x>0</x>
+     <y>0</y>
+     <width>1170</width>
+     <height>26</height>
+    </rect>
+   </property>
+  </widget>
+  <widget class="QStatusBar" name="statusbar"/>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>
